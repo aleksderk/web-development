@@ -1,0 +1,342 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+img {
+	border: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.top {
+	width: 100%;
+	height: 520px;
+	background: url("../images/bg_top.png") repeat-y top center #EEEEEE;
+}
+
+.wrapper-top {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.top_block {
+	width: 958px;
+	height: 157px;
+	background: url("../images/bg_nav.png") repeat-y top center;
+	border: 1px solid #CBCBCB;
+	border-radius: 0 0 25px 25px;
+}
+
+header {
+	width: 100%;
+	height: 107px;
+	background-color: #2C2D2E;
+	border-radius: 0 0 20px 20px;
+	color: #EEEEEE;
+	font-size: 150%;
+	box-shadow: 0 2px 4px #CACACA;
+	font-family: Verdana, sans-serif;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	font-size: 100%;
+}
+
+nav li {
+	list-style: none;
+	float: left;
+}
+
+nav li a {
+	color: #2c2d2e;
+	display: block;
+	text-decoration: none;
+	background: url("../images/bg_sep.png") no-repeat right center;
+	margin: 5px 0 0 0;
+	padding: 10px 28px;
+}
+
+nav li:last-child a {
+	background: none;
+}
+
+nav li.active a, nav li a:hover {
+	color: #0665a2;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+.bigNadpis {
+	font-family: Verdana, sans-serif;
+	font-size: 160%;
+	color: #545454;
+	margin: 40px 0 0 30px;
+}
+
+.smallNadpis {
+	font-family: Verdana, sans-serif;
+	font-size: 130%;
+	color: #1d8bce;
+	margin: 40px 0 0 30px;
+}
+
+.wrapper-top img {
+	float: right;
+	margin: -145px 15px 0 0;
+}
+
+.center {
+	width: 100%;
+	background-color: #F7F7F7;
+}
+
+.wrapper-center {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 60px;
+}
+
+.razdelyi {
+	position: absolute;
+	top: -130px;
+}
+
+.block_razdelyi_wrapper {
+	float: left;
+	margin-right: 21px;
+	width: 295px;
+	height: 160px;
+	padding: 5px;
+	background-color: rgba(251,251,251,0.6);
+	border: 1px solid #E6E6E6;
+	border-top: none;
+	border-left: none;
+	border-radius: 8px;
+}
+
+.block3 {
+	margin-right: 0;
+}
+
+.block_razdelyi {
+	width: 264px;
+	height: 139px;
+	padding: 20px 0 0 30px;
+	background: linear-gradient(to bottom, #FFFFFF, #EBEBEB);
+	border: 2px solid #CBCBCB;
+	border-top: none;
+	border-left: none;
+	border-radius: 8px;
+	position: relative;
+}
+
+.block_razdelyi_zag {
+	font-family: Verdana, sans-serif;
+	font-size: 130%;
+	color: #2c2d2e;
+	margin: 0 0 10px 0;
+}
+
+.block_razdelyi_content {
+	font-family: Verdana, sans-serif;
+	font-size: 90%;
+	color: #6f6f6f;
+}
+
+.block_razdelyi a {
+	width: 116px;
+	height: 32px;
+	color: #fff;
+	font-size: 95%;
+	text-align: center;
+	line-height: 2.0;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: linear-gradient(to bottom, #52BCE5 0%, #1D8BCE 50%, #1D8BCE 100%);
+	border: 1px solid #1D8BCE;
+	border-radius: 7px;
+	position: absolute;
+	left: 30px;
+	bottom: -17px;
+}
+
+.block_razdelyi img {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.aboutMe {
+	width: 264px;
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 10px 10px 10px 30px;
+	background-color: #FAFAFA;
+	border: 1px solid #EDEDED;
+	border-radius: 7px;
+}
+
+.aboutMe_content {
+	font-family: Verdana, sans-serif;
+	font-size: 90%;
+	color: #6f6f6f;
+}
+
+.aboutMe img {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.portfolio {
+	width: 636px;
+	margin: 0 0 0 334px;
+	padding: 10px 10px 10px 30px;
+}
+
+.portfolio_content {
+	font-family: Verdana, sans-serif;
+	font-size: 90%;
+	color: #6f6f6f;
+}
+
+.portfolio img {
+	width: 150px;
+	height: 120px;
+	outline: 1px solid #000;
+	float: left;
+}
+
+.zakaz {
+	width: 920px;
+	margin: 0 auto;
+	padding: 10px 10px 10px 30px;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.zakaz form label {
+	cursor: pointer;
+}
+
+.zakaz form label[for="e-mail"] {
+	margin-left: 30px;
+}
+
+.zakaz form input[type="text"] {
+	width: 250px;
+	height: 28px;
+	border: 1px solid #D9D9D9;
+	border-radius: 7px;
+	padding: 0 5px;
+	font-size: 100%;
+	background: linear-gradient(to bottom, #FDFDFD 0%, #F9F9F9 50%, #F1F1F1 100%);
+}
+
+.zakaz form label[for="text"] {
+	display: inline-block;
+	margin: 50px 0 0 0;
+}
+
+.zakaz form textarea {
+	margin: 20px 0 0 0;
+	border: 1px solid #D9D9D9;
+	border-radius: 7px;
+	padding: 0 5px;
+	font-size: 100%;
+	background: linear-gradient(to bottom, #FDFDFD 0%, #F9F9F9 50%, #F1F1F1 100%);
+}
+
+.zakaz form input[type="image"] {
+	margin: 20px 0 0 0;
+}
+
+footer {
+	width: 960px;
+	margin: 0 auto;
+	padding; 20px 
+}
+
+/* Стили для галереи */
+
+.gallery {
+	width: 960px;
+	margin: 30px auto;
+	position: relative;
+}
+
+ul.thumb {
+	float: left;
+	list-style: none;
+	margin: 0; padding: 10px;
+	width: 360px;
+}
+
+ul.thumb li {
+	margin: 0; padding: 5px;
+	float: left;
+	position: relative;
+	width: 110px;
+	height: 110px;
+}
+
+ul.thumb li img {
+	width: 100px; height: 100px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	background: #f0f0f0;
+	position: absolute;
+	left: 0; top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+ul.thumb li img.hover {
+	background:url(thumb_bg.png) no-repeat center center;
+	border: none;
+}
+
+#main_view {
+	float: left;
+	padding: 9px 0;
+	margin-left: -10px;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+nav li {
+	float: none;
+}
+
+.bigNadpis {
+	margin: 200px 0 0 30px;
+}
+
+.smallNadpis {
+	margin: 20px 0 0 30px;
+}
+
+.razdelyi {
+	position: relative;
+}
+
+.block_razdelyi_wrapper {
+	float: none;
+	padding-bottom: 40px;
+}
+
+}
